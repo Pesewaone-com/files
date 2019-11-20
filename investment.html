@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pesewa One</title>
+        <meta name="description" content="Elisyam is a Web App and Admin Dashboard Template built with Bootstrap 4">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <script src="ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="4662d292a3e670937400e6a2-text/javascript"></script>
+        <script type="4662d292a3e670937400e6a2-text/javascript">
+                  WebFont.load({
+                    google: {"families":["Montserrat:400,500,600,700","Noto+Sans:400,700"]},
+                    active: function() {
+                        sessionStorage.fonts = true;
+                    }
+                  });
+                </script>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/img/blue.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/blue.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/img/blue.png">
+
+        <link rel="stylesheet" href="assets/vendors/css/base/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/vendors/css/base/pesewaone.css">
+    </head>
+
+    <body id="page-top">
+
+        <div id="preloader">
+            <div class="canvas">
+                <img src="assets/img/blue.png" alt="logo" class="loader-logo">
+                <div class="spinner"></div>
+            </div>
+        </div>
+
+        <div class="page db-social">
+            <header class="header">
+                <nav class="navbar fixed-top" style="background:white;box-shadow: inset 0px -11px 8px -10px #CCC;">
+                    <div class="search-box">
+                        <button class="dismiss"><i class="ion-close-round" style="color:blue;"></i></button>
+                        <form id="searchForm" action="#" role="search">
+                            <input type="search" placeholder="Search something ..." class="form-control">
+                        </form>
+                    </div> 
+
+                    <div class="navbar-holder d-flex align-items-center align-middle justify-content-between">
+                        <div class="navbar-header">
+                            <a href="business.html" class="navbar-brand">
+                                <div class="brand-image brand-big">
+                                    <img src="assets/img/blue.png" alt="logo" style="width: 70px;" class="logo-big">
+                                </div>
+                                <div class="brand-image brand-small">
+                                    <img src="assets/img/blue.png" alt="logo" class="logo-small">
+                                </div>
+                            </a>
+
+                            <a href="#off-canvas" class="open-sidebar"><i class="la la-ellipsis-h align-items-md-center" style="font-size:30px;color:blue;position: absolute;top:23px;"></i></a>
+                        </div>
+                        <ul class="nav-menu list-unstyled d-flex flex-md-row align-items-md-center pull-right">
+                            <li class="nav-item d-flex align-items-center"><a id="search" href="#"><i class="la la-search" style="color:blue;"></i></a></li>
+                            <li class="nav-item dropdown"><a id="user" rel="nofollow" data-target="#" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link"><img src="assets/img/avatar/avatar-01.jpg" alt="..." class="avatar rounded-circle"></a>
+                                <ul aria-labelledby="user" class="user-size dropdown-menu">
+                                    <li class="welcome">
+                                        <a href="#" class="edit-profil"><i class="la la-gear"></i></a>
+                                        <img src="assets/img/avatar/avatar-01.jpg" alt="..." class="rounded-circle">
+                                    </li>
+                                    <hr />
+                                    <li>
+                                        <a href="pages-profile.html" class="dropdown-item">
+                                            Profile
+                                        </a>
+                                    </li>
+                                    <hr />
+                                    <li>
+                                        <a href="#" class="dropdown-item no-padding-bottom">
+                                            My Internship&nbsp;&nbsp;
+                                        </a>
+                                    </li>
+                                    <hr />
+                                    <li>
+                                        <a href="#" class="dropdown-item no-padding-bottom">
+                                            My Employment
+                                        </a>
+                                    </li>
+                                    <hr />
+                                    <li>
+                                    <a href="#" class="dropdown-item no-padding-bottom">
+                                        My Investment
+                                    </a>
+                                    </li>
+                                    <hr />
+                                    <li>
+                                        <a href="#" class="dropdown-item no-padding-bottom">
+                                            Report
+                                        </a>
+                                    </li>
+                                    <hr />
+                                    <li><a rel="nofollow" href="login.html" class="dropdown-item logout text-center"><i class="ti-power-off"></i></a></li>
+                                </ul>
+
+                            </li>
+
+
+
+                        </ul>
+
+                        </div>
+
+                </nav>
+            </header>
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col-xl-11">
+                        <div class="page-header pr-0 pl-0">
+                            <div class="d-flex align-items-center">
+                                <h2 class="page-header-title">My Investment</h2>
+                            <div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="widget has-shadow">
+                            <div class="widget-body">
+                                <div class="table-responsive">
+                                    <table id="sorting-table" class="table table-bordered mb-0">
+                                        <thead>
+                                            <tr>
+                                                <th class="text-center">#</th>
+                                                <th class="text-center">Company Name</th>
+                                                <th class="text-center">Actions</th>
+                                            </tr>
+                                        </thead>
+
+                                        <tbody>
+                                            <tr class="text-center">
+                                                <td><span class="text-primary">054-01-FR</span></td>
+                                                <td>Lori Baker</td>
+                                                <td class="td-actions">
+                                                    <button class="btn btn-outline-dark btn-sm">Performance</button>
+                                                </td>
+                                            </tr>
+
+                                            <tr class="text-center">
+                                                <td><span class="text-primary">054-01-FR</span></td>
+                                                <td>Lori Baker</td>
+                                                <td class="td-actions">
+                                                    <button class="btn btn-outline-dark btn-sm">Performance</button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="page-content">
+                <div class="content-inner compact active">
+                    <a href="#" class="go-top"><i class="la la-arrow-up"></i></a>
+                    <div class="off-sidebar from-left">
+                        <div class="off-sidebar-container" >
+                            <header class="off-sidebar-header">
+                                <a href="#off-canvas" class="off-sidebar-close"></a>
+                            </header>
+                            <div class="off-sidebar-content" style="box-shadow: inset 0px 2px 8px 2px #CCC;">
+                                <div class="tab-content">
+                                    <ul class="menu list-group">
+                                        <li style="box-shadow: inset 0px -7px 9px -7px indigo;font-size: 15px;" class="list-group-item text-center"> <b>Services Categories</b> </li>
+                                        <li style="box-shadow: inset 0px -4px 3px -4px indigo;" class="list-group-item text-center"><a href="services.html">Market and Advertisement</a></li>
+                                        <li class="list-group-item text-center" style="box-shadow: inset 0px -4px 3px -4px indigo;"><a href="services.html">Business Services</a></li>
+                                        <li style="box-shadow: inset 0px -4px 3px -4px indigo;" class="list-group-item text-center"><a href="services.html">Professional Service</a></li>
+                                        <li style="box-shadow: inset 0px -4px 3px -4px indigo;" class="list-group-item text-center"><a href="services.html">Technological Service</a></li>
+                                        <li style="box-shadow: inset 0px -4px 3px -4px indigo;" class="list-group-item text-center"><a href="services.html">Design, Media & Print</a></li>
+                                        <li style="box-shadow: inset 0px -8px 7px -8px indigo;" class="list-group-item text-center"><a href="services.html">Money & Finance Services</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<style>
+    .menu li{
+        line-height: 4em;
+        color:black;
+    }
+
+
+    /*//small devices*/
+    @media (max-width: 576px) {
+        .off-sidebar-container{
+            width: 70% !important;
+        }
+    }
+
+    /*// Medium devices (tablets, 768px and up)*/
+    @media (min-width: 768px) {
+        .off-sidebar-container{
+            width: 30% !important;
+        }
+    }
+
+    /*// Large devices (desktops, 992px and up)*/
+    @media (min-width: 992px) {
+        .off-sidebar-container{
+            width: 30% !important;
+        }
+    }
+
+    /*// Extra large devices (large desktops, 1200px and up)*/
+    @media (min-width: 1200px) {
+        .off-sidebar-container{
+            width: 30% !important;
+        }
+    }
+</style>
+
+<script src="assets/vendors/js/base/jquery.min.js" type="4662d292a3e670937400e6a2-text/javascript"></script>
+<script src="assets/vendors/js/base/core.min.js" type="4662d292a3e670937400e6a2-text/javascript"></script>
+
+
+<script src="assets/vendors/js/nicescroll/nicescroll.min.js" type="4662d292a3e670937400e6a2-text/javascript"></script>
+<script src="assets/vendors/js/app/app.min.js" type="4662d292a3e670937400e6a2-text/javascript"></script>
+
+<script src="ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js" data-cf-settings="4662d292a3e670937400e6a2-|49" defer=""></script></body>
+
+<!-- Mirrored from www.saerox-design.com/elisyam/business.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Oct 2019 09:16:05 GMT -->
+</html>

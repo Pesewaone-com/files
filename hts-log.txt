@@ -1,0 +1,46 @@
+HTTrack3.49-2 launched on Tue, 01 Oct 2019 09:13:57 at https://www.saerox-design.com/elisyam/db-default.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/*
+(webhttrack -q -%i -w https://www.saerox-design.com/elisyam/db-default.html -O "/home/kay/websites/Elisyam" -n -%P -N0 -s2 -p7 -D -a -K0 -c4 -%k -A25000 -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -%s -%u )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:17:35	Error: 	"Not Found" (404) at link https://www.saerox-design.com/elisyam/faq.html (from https://www.saerox-design.com/elisyam/db-default.html)
+09:17:35	Error: 	"Not Found" (404) at link https://www.saerox-design.com/elisyam/profile.html (from https://www.saerox-design.com/elisyam/db-default.html)
+09:18:01	Error: 	"Not Found" (404) at link https://www.saerox-design.com/elisyam/dashboard.html (from https://www.saerox-design.com/elisyam/components-widgets.html)
+09:18:23	Warning: 	File seems complete (same size), but there was a cache read error (4294967295): https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js
+09:18:58	Warning: 	HTML file (20364 bytes) retransferred due to lack of cache: https://www.saerox-design.com/elisyam/documentation.html
+09:19:01	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.saerox-design.com/elisyam/documentation.html (from https://www.saerox-design.com/elisyam/db-default.html)
+09:19:06	Warning: 	HTML file (20364 bytes) retransferred due to lack of cache: https://www.saerox-design.com/elisyam/documentation.html
+09:19:13	Warning: 	HTML file (20502 bytes) retransferred due to lack of cache: https://www.saerox-design.com/elisyam/pages-albums.html
+09:19:14	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.saerox-design.com/elisyam/pages-albums.html (from https://www.saerox-design.com/elisyam/db-social.html)
+09:19:14	Warning: 	HTML file (20502 bytes) retransferred due to lack of cache: https://www.saerox-design.com/elisyam/pages-albums.html
+09:19:14	Warning: 	HTML file (1951 bytes) retransferred due to lack of cache: https://www.saerox-design.com/elisyam/dashboard.html
+09:19:15	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.saerox-design.com/elisyam/dashboard.html (from https://www.saerox-design.com/elisyam/components-widgets.html)
+09:19:15	Warning: 	HTML file (1951 bytes) retransferred due to lack of cache: https://www.saerox-design.com/elisyam/dashboard.html
+09:19:19	Warning: 	HTML file (41944 bytes) retransferred due to lack of cache: https://www.saerox-design.com/elisyam/db-modern-dark.html
+09:19:20	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.saerox-design.com/elisyam/db-modern-dark.html (from https://www.saerox-design.com/elisyam/db-all-dark.html)
+09:19:20	Warning: 	HTML file (41944 bytes) retransferred due to lack of cache: https://www.saerox-design.com/elisyam/db-modern-dark.html
+09:19:20	Warning: 	HTML file (30304 bytes) retransferred due to lack of cache: https://www.saerox-design.com/elisyam/db-clean-dark.html
+09:19:21	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.saerox-design.com/elisyam/db-clean-dark.html (from https://www.saerox-design.com/elisyam/db-default-dark.html)
+09:19:21	Warning: 	HTML file (30304 bytes) retransferred due to lack of cache: https://www.saerox-design.com/elisyam/db-clean-dark.html
+09:19:39	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.saerox-design.com/elisyam/documentation.html (from https://www.saerox-design.com/elisyam/db-default.html)
+09:19:39	Warning: 	HTML file (20364 bytes) retransferred due to lack of cache: https://www.saerox-design.com/elisyam/documentation.html
+09:19:39	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.saerox-design.com/elisyam/pages-albums.html (from https://www.saerox-design.com/elisyam/db-social.html)
+09:19:39	Warning: 	HTML file (20502 bytes) retransferred due to lack of cache: https://www.saerox-design.com/elisyam/pages-albums.html
+09:19:39	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.saerox-design.com/elisyam/dashboard.html (from https://www.saerox-design.com/elisyam/components-widgets.html)
+09:19:39	Warning: 	HTML file (1951 bytes) retransferred due to lack of cache: https://www.saerox-design.com/elisyam/dashboard.html
+09:19:40	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.saerox-design.com/elisyam/db-modern-dark.html (from https://www.saerox-design.com/elisyam/db-all-dark.html)
+09:19:40	Warning: 	HTML file (41944 bytes) retransferred due to lack of cache: https://www.saerox-design.com/elisyam/db-modern-dark.html
+09:19:40	Warning: 	Retry after error -4 (Interrupted transfer) at link https://www.saerox-design.com/elisyam/db-clean-dark.html (from https://www.saerox-design.com/elisyam/db-default-dark.html)
+09:19:40	Warning: 	HTML file (30304 bytes) retransferred due to lack of cache: https://www.saerox-design.com/elisyam/db-clean-dark.html
+09:19:41	Warning: 	File not parsed, looks like binary: https://www.saerox-design.com/elisyam/assets/icons/lineawesome/fonts/line-awesome.woff2?v=1.1.
+09:19:41	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.saerox-design.com/elisyam/documentation.html (from https://www.saerox-design.com/elisyam/db-default.html)
+09:19:41	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.saerox-design.com/elisyam/pages-albums.html (from https://www.saerox-design.com/elisyam/db-social.html)
+09:19:41	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.saerox-design.com/elisyam/dashboard.html (from https://www.saerox-design.com/elisyam/components-widgets.html)
+09:19:41	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.saerox-design.com/elisyam/db-modern-dark.html (from https://www.saerox-design.com/elisyam/db-all-dark.html)
+09:19:41	Error: 	"Interrupted transfer" (-4) after 2 retries at link https://www.saerox-design.com/elisyam/db-clean-dark.html (from https://www.saerox-design.com/elisyam/db-default-dark.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 5 minutes 44 seconds : 303 links scanned, 346 files written (20114448 bytes overall) [10818908 bytes received at 31450 bytes/sec], 8892491 bytes transferred using HTTP compression in 178 files, ratio 32%, 5.3 requests per connection
+(8 errors, 27 warnings, 0 messages)
